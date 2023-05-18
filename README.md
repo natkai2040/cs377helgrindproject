@@ -7,5 +7,5 @@ In Repo, called **valgrind_tests.cpp**
 # Compile with
 _g++ -g valgrind_tests.cpp -o val_test -pthread_
 # Test with
-_valgrind with valgrind --tool=helgrind --read-var-info=yes ./val_test_
+_valgrind --tool=helgrind --read-var-info=yes ./val_test_
 # LINK TO VIDEO:
