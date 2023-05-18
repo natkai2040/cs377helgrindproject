@@ -7,7 +7,7 @@ In Repo, called **valgrind_tests.cpp**. You can also test out HW.4 on valgrind a
 # Compile with
 _g++ -g valgrind_tests.cpp -o val_test -pthread_
 # Test with
-_valgrind --tool=helgrind --read-var-info=yes ./val_test_ AND valgrind _--tool=helgrind --read-var-info=yes ./bank_app 10 pt.txt_
+_valgrind --tool=helgrind --read-var-info=yes ./val_test_ **AND FOR HW4:** valgrind _--tool=helgrind --read-var-info=yes ./bank_app 10 pt.txt_
 
 # VIDEO:
 PPTVideo.mp4, 8 Min: Goes through the PPT, Explains Helgrind
